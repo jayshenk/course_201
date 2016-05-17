@@ -5,56 +5,53 @@
     <meta charset="UTF-8" />
     <style>
       body {
-        background: url("bg_body.gif");
         padding: 75px 0 50px 0;
         font: normal 20px Helvetica, Arial, sans-serif;
-        color: gray;
+        background: #2f2840 url("bg_body.gif");
+        color: #45494d;
       }
-      header {
+
+      header, main, footer {
         width: 1000px;
         margin: 0 auto;
       }
-      h1 {
+
+      main {
+        padding: 75px 0 0 0;
+        background: #ffffff;
         text-align: center;
-        padding-bottom: 50px;
+      }
+      h1 {
+        padding: 0 0 50px 0;
+        text-align: center;
       }
       h2 {
         font-size: 36px;
       }
       h3 {
+        font-size: 24px;
         color: #3e98b2;
       }
-      main {
-        background: white;
-        width: 1000px;
-        margin: 0 auto;
-        text-align: center;
-      }
       article {
-        width: 780px;
         margin: 0 auto;
-        padding: 75px 0 25px 0;
+        padding: 0 110px 100px 110px;
       }
+
       footer {
-        background: #e7e7e7;
-        width: 1000px;
-        margin: 0 auto;
         padding: 30px 0;
+        background: #e7e7e7;
       }
-      ul {
+      footer ul {
         list-style-type: none;
         text-align: center;
-        width: 400px;
         margin: 0 auto;
       }
+
       li {
-        display: inline-block;
-        float: left;
-        padding-right: 120px;
+        display: inline;
+        padding: 0 62px;
       }
-      li:last-child {
-        padding-right: 0;
-      }
+
       footer:after {
         display: block;
         clear: both;
@@ -64,7 +61,7 @@
   </head>
   <body>
     <header>
-      <h1><img src="logo.png" alt="logo" /></h1>
+      <h1><img src="logo.png" alt="Space Design" /></h1>
     </header>
 
     <main>
@@ -86,9 +83,9 @@
 
     <footer>
       <ul>
-        <li><img src="icon_twitter.png" alt="twitter" /></li>
-        <li><img src="icon_facebook.png" alt="facebook" /></li>
-        <li><img src="icon_email.png" alt="email" /></li>
+        <li><a href="#"><img src="icon_twitter.png" alt="twitter" /></a></li>
+        <li><a href="#"><img src="icon_facebook.png" alt="facebook" /></a></li>
+        <li><a href="#"><img src="icon_email.png" alt="email" /></a></li>
       </ul>
     </footer>
   </body>
