@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <style>
+      #positioned {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        z-index: 2;
+        width: 400px;
+        padding: 30px 15px;
+        margin-left: -200px;
+        background: #ffffcc;
+        box-sizing: border-box;
+      }
+
+      #corner {
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        width: 20px;
+        height: 20px;
+        background: #fcfc99;
+      }
+
+      #fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        background: rgba(0, 0, 0, .6);
+      }
+    </style>
+  </head>
+  <body>
+      <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sem turpis, condimentum vitae ultrices ut, suscipit ut ipsum. Aliquam vel vestibulum urna. Praesent eget arcu non turpis pulvinar vulputate eu non est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec efficitur erat. Integer felis nunc, tempus nec sollicitudin sed, tincidunt quis justo. Integer suscipit nulla id pretium euismod. Fusce consectetur libero metus, id consequat augue lacinia sit amet. Donec mollis sed massa eget consectetur. Praesent vel tincidunt arcu. Aliquam erat volutpat. Proin nec turpis ut tortor porttitor efficitur.</p>
+
+        <p>Nullam venenatis enim lectus, et lobortis massa lacinia non. Donec tempus dolor at ex sagittis blandit. Nulla facilisi. Sed quam ligula, luctus ac tortor eget, suscipit porta odio. Aliquam erat volutpat. Duis tincidunt congue mauris non vestibulum. Pellentesque elementum posuere leo eget tempor. In hac habitasse platea dictumst. Donec pharetra mi a maximus auctor. Nulla mollis euismod eleifend.</p>
+
+        <p>Sed euismod, nulla vitae commodo blandit, mi turpis maximus lectus, nec pharetra velit enim vel ligula. Fusce vestibulum varius lobortis. Cras et dui vel velit vestibulum sagittis. Donec sed mauris fringilla, luctus sem non, lacinia eros. Nullam a augue tristique, imperdiet leo interdum, fermentum massa. Duis urna nulla, interdum ut nunc vitae, suscipit iaculis arcu. Sed et eros a quam scelerisque consectetur. Suspendisse potenti. Proin vitae nunc vel est porta volutpat id at erat. Donec placerat lacus a libero auctor, vel tincidunt mi ultrices. Etiam eu lectus vitae nunc tincidunt euismod eu ac purus. Nam luctus facilisis metus, vitae molestie eros.</p>
+      </section>
+      <div id="positioned">
+        <p>I'm positioned!</p>
+        <div id="corner">
+        </div>
+      </div>
+      <div id="fixed">
+      </div>      
+  </body>
+</html> 
