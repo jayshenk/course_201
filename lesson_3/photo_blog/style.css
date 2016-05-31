@@ -45,3 +45,36 @@ nav a.active {
   color: #fcfff5;
   background: #91aa9d;
 }
+
+main {
+  width: 900px;
+  padding: 30px;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 5px 5px #b5b5b5;
+}
+
+h2 {
+  padding: 45px 0 35px 0;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+main p {
+  margin-bottom: 20px;
+}
+
+article img {
+  float: right;
+  padding: 0 0 20px 40px;
+}
+
+footer {
+  width: 960px;
+  padding: 15px 0 40px 0;
+  margin: 0 auto;
+  clear: both;
+  font-size: 14px;
+}
