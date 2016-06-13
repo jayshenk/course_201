@@ -8,10 +8,6 @@ body {
   background: #2f2840 url("images/bg_body.gif") 50% 0 repeat;
 }
 
-header {
-
-}
-
 header h1 {
   margin: 0 0 115px 0;
 }
@@ -99,3 +95,13 @@ footer li a {
 footer li a.facebook { background-position: 0 -46px; }
 footer li a.email { background-position: 0 -92px; }
 footer li a.instagram { background-position: 0 100%; }
+
+/* Project page */
+
+.project img {
+  margin-left: -100px;
+}
+
+.project h3 {
+  padding-top: 60px;
+}
