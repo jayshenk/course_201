@@ -107,3 +107,32 @@ footer li a.instagram { background-position: 0 100%; }
 #projects figure img {
   display: block;
 }
+
+#team p {
+  padding-bottom: 120px;
+}
+
+#team li {
+  display: inline-block;
+}
+
+#team li a {
+  display: block;
+  padding: 180px 70px 180px 60px;
+  text-decoration: none;
+  color: #3e59b2;
+  font-size: 24px;
+}
+
+#team li a#kevin {
+  background: transparent url("images/img_kevin.jpg") 50% 0 no-repeat;
+}
+#team li a#louis {
+  background: transparent url("images/img_louis.jpg") 50% 0 no-repeat;
+}
+#team li a#kasper {
+  background: transparent url("images/img_kasper.jpg") 50% 0 no-repeat;
+}
+#team li a#chris {
+  background: transparent url("images/img_chris.jpg") 50% 0 no-repeat;
+}
