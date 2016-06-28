@@ -120,8 +120,10 @@ article h2 a {
 .button {
   display: inline-block;
   padding: 5px 25px;
-  font-size: 15px;
+  font: normal 15px Helvetica, Arial, sans-serif;
   color: #f5f5f5;
+  cursor: pointer;
+  border: none;
   border-radius: 20px;
   background: #50c3af;
 }
@@ -133,6 +135,54 @@ article h2 a {
 
 .pagination a.next {
   margin-left: 25px;
+}
+
+.comments img {
+  margin: 0 10px 0 0;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+.comments h3 {
+  display: inline-block;
+  padding: 0;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: none;
+  vertical-align: middle;
+}
+
+.comments header {
+  padding: 0 0 20px 0;
+}
+
+.comments article {
+  padding: 0 0 30px 0;
+}
+
+form dt {
+  padding: 0 0 5px 0;
+  font-weight: bold;
+}
+
+form dd {
+  padding: 0 0 15px 0;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 450px;
+  height: 38px;
+  padding: 5px 10px;
+  font: normal 15px Helvetica, Arial, sans-serif;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 140px;
+  resize: none;
 }
 
 footer {
