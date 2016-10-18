@@ -231,6 +231,12 @@ footer li a.instagram { background-position: 0 100%; }
   footer li {
     padding: 0 32px;
   }
+  #team .modal {
+    left: 0;
+    width: 100%;
+    padding: 50px 30px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 480px) {
